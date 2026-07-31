@@ -13,6 +13,12 @@
 
 ---
 
+## Overview
+
+**Building Tech Portfolios Interview Skills** is a full-stack AI engineering portfolio demo. Its main project, **Signal Lab**, turns a project brief into concise interview-ready signals such as a summary, strengths, and next steps.
+
+The repository also includes a Spring Boot shop-cart API and a Python machine-learning project, showing work across web development, backend services, data science, and testing.
+
 ## ⚡ Full-stack + AI Demo: Signal Lab
 
 This repository includes a dependency-free Node.js demo that reviews a project brief and turns it into interview-ready signals.
@@ -21,6 +27,15 @@ This repository includes a dependency-free Node.js demo that reviews a project b
 - **Backend:** Node.js HTTP server with static file serving and a `POST /api/review` endpoint
 - **AI layer:** local fallback model that works immediately, plus optional OpenAI-compatible model integration
 
+### Project structure
+
+```text
+public/                 Browser interface for Signal Lab
+server.js               Node.js server and review API
+projectdatasci.py       Python match prediction project
+spring-boot-shop-cart/  Spring Boot shop-cart API
+```
+
 ### Run locally
 
 ```bash
@@ -28,6 +43,14 @@ npm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000). To connect a hosted model, copy `.env.example` to `.env` and provide `OPENAI_API_KEY` and optionally `OPENAI_MODEL`.
+
+### API example
+
+```bash
+curl -X POST http://localhost:3000/api/review \
+  -H "Content-Type: application/json" \
+  -d '{"project":"Signal Lab","stack":"Node.js, React, PostgreSQL","context":"System design"}'
+```
 
 ---
 
