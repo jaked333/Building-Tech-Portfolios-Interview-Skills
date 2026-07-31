@@ -58,9 +58,9 @@ Open [http://localhost:3000](http://localhost:3000). To connect a hosted model, 
 
 | Project                        | Tech                                              | Highlights                                                                                           | Links                                                          |
 | ------------------------------ | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| **Signal Lab**           | Node.js · HTML · CSS · JavaScript · AI API    | Full-stack portfolio coach with a local AI fallback and structured review output                     | [Repo](./) · [Server](./server.js)                              |
-| **Signal Lab Interface** | Responsive CSS · Vanilla JavaScript · REST      | Project brief form with loading, error, and result states                                            | [Frontend](./public/index.html) · [Styles](./public/styles.css) |
-| **Portfolio Review API** | Node.js · HTTP · JSON · OpenAI-compatible API  | Validated`POST /api/review` endpoint with local and hosted model modes                             | [API code](./server.js) · [Config](./.env.example)              |
+| **Signal Lab AI Platform** | Node.js · JavaScript · AI APIs              | AI-powered portfolio coach with local-first inference and structured interview-ready feedback       | [Repo](./) · [Server](./server.js)                              |
+| **Signal Lab Web App**     | HTML · CSS · JavaScript · REST                | Responsive project workspace with polished loading, error, and review states                        | [Frontend](./public/index.html) · [Styles](./public/styles.css) |
+| **Portfolio Intelligence API** | Node.js · REST · JSON · OpenAI-compatible API | Structured `POST /api/review` service for local and hosted AI review workflows                    | [API code](./server.js) · [Config](./.env.example)              |
 | **Shop Cart API**        | Java · Spring Boot · REST API                   | Backend endpoint to report shopping cart updates                                                     | [Repo](./spring-boot-shop-cart)                                 |
 | **AI Match Predictor**   | Python · Pandas · scikit-learn · Random Forest | Predicts home wins, away wins, or draws from match data with cross-validation and grid-search tuning | [Model script](./projectdatasci.py)                             |
 
