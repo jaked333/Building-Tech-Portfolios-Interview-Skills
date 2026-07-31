@@ -61,6 +61,7 @@ Open [http://localhost:3000](http://localhost:3000). To connect a hosted model, 
 | **Signal Lab**           | Node.js · HTML · CSS · JavaScript · AI API   | Full-stack portfolio coach with a local AI fallback and structured review output | [Repo](./) · [Server](./server.js)                              |
 | **Signal Lab Interface** | Responsive CSS · Vanilla JavaScript · REST     | Project brief form with loading, error, and result states                        | [Frontend](./public/index.html) · [Styles](./public/styles.css) |
 | **Portfolio Review API** | Node.js · HTTP · JSON · OpenAI-compatible API | Validated`POST /api/review` endpoint with local and hosted model modes         | [API code](./server.js) · [Config](./.env.example)              |
+| **Shop Cart API**        | Java · Spring Boot · REST API                  | Backend endpoint to report shopping cart updates                                 | [Repo](./spring-boot-shop-cart)                                 |
 
 ---
 
