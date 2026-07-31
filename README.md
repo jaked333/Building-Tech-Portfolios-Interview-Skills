@@ -75,4 +75,4 @@ Open [http://localhost:3000](http://localhost:3000). To connect a hosted model, 
 ## 🤝 Let’s Connect
 
 - 💌 Email: ⟪kumpun522@example.com⟫
-- 🔗 [facebook](https://www.facebook.com/edverd.himhs/)
+
