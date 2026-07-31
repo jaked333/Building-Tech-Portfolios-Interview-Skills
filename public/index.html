@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A full-stack AI engineering portfolio review demo." />
+    <title>Signal / Portfolio AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <nav class="nav"><span class="mark">S/</span><span class="nav-label">SIGNAL LAB</span><span class="nav-status"><i></i> API ONLINE</span></nav>
+      <section class="hero">
+        <div class="eyebrow">FULL-STACK + AI ENGINEERING / 001</div>
+        <h1>Make your<br /><em>work speak.</em></h1>
+        <p class="lede">A compact portfolio coach that turns project context into sharper interview evidence.</p>
+      </section>
+      <section class="workspace">
+        <form id="review-form" class="panel form-panel">
+          <div class="panel-top"><span>INPUT / PROJECT BRIEF</span><span class="mono">POST /api/review</span></div>
+          <label>Project name<input id="project" name="project" value="Signal Lab" required /></label>
+          <label>Stack<input id="stack" name="stack" value="Node.js, React, PostgreSQL" required /></label>
+          <label>Interview context<select id="context" name="context"><option>System design</option><option>Product engineering</option><option>AI engineering</option></select></label>
+          <button type="submit"><span>Generate review</span><span class="arrow">↗</span></button>
+          <p class="form-note">Runs locally by default. Add an API key to connect a hosted model.</p>
+        </form>
+        <section id="result" class="panel result-panel" aria-live="polite">
+          <div class="panel-top"><span>OUTPUT / SIGNAL REPORT</span><span id="source" class="mono">WAITING</span></div>
+          <div class="empty-state"><span class="pulse">✦</span><h2>Your next strongest signal is hiding in the details.</h2><p>Describe a project and the local AI coach will surface its story, strengths, and next proof points.</p></div>
+        </section>
+      </section>
+      <footer><span>Built as a full-stack AI engineering demo.</span><span class="mono">v1.0 / LOCAL-FIRST</span></footer>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "fullstack-ai-portfolio-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A dependency-light full-stack and AI engineering portfolio demo.",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  }
+}
