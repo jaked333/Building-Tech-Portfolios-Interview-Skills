@@ -38,7 +38,7 @@ Open [http://localhost:3000](http://localhost:3000). To connect a hosted model, 
 - 🤖  AI engineering: **OpenAI-compatible APIs · prompt design · structured JSON output · local fallbacks**
 - 🧪  Testing: **Robot Framework · API testing · integration testing · end-to-end workflows**
 - 🎯  2026 Goal: **Build and ship an end-to-end AI product that helps developers turn project ideas into interview-ready portfolios**
-- 📫  Reach me: **⟪kumpun522@example.com⟫** 
+- 📫  Reach me: **⟪kumpun522@example.com⟫**
 
 ---
 
@@ -56,12 +56,11 @@ Open [http://localhost:3000](http://localhost:3000). To connect a hosted model, 
 
 ## 📌 Featured Projects
 
-| Project                        | Tech                                              | Highlights                                                                                           | Links                                                          |
-| ------------------------------ | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-
-| **Portfolio Intelligence API** | Node.js · REST · JSON · OpenAI-compatible API | Structured `POST /api/review` service for local and hosted AI review workflows                    | [API code](./server.js) · [Config](./.env.example)              |
-| **Shop Cart API**        | Java · Spring Boot · REST API                   | Backend endpoint to report shopping cart updates                                                     | [Repo](./spring-boot-shop-cart)                                 |
-| **AI Match Predictor**   | Python · Pandas · scikit-learn · Random Forest | Predicts home wins, away wins, or draws from match data with cross-validation and grid-search tuning | [Model script](./projectdatasci.py)                             |
+| Project                              | Tech                                              | Highlights                                                                                           | Links                                             |
+| ------------------------------------ | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| **Portfolio Intelligence API** | Node.js · REST · JSON · OpenAI-compatible API  | Structured`POST /api/review` service for local and hosted AI review workflows                      | [API code](./server.js) · [Config](./.env.example) |
+| **Shop Cart API**              | Java · Spring Boot · REST API                   | Backend endpoint to report shopping cart updates                                                     | [Repo](./spring-boot-shop-cart)                    |
+| **AI Match Predictor**         | Python · Pandas · scikit-learn · Random Forest | Predicts home wins, away wins, or draws from match data with cross-validation and grid-search tuning | [Model script](./projectdatasci.py)                |
 
 ---
 
@@ -75,6 +74,5 @@ Open [http://localhost:3000](http://localhost:3000). To connect a hosted model, 
 
 ## 🤝 Let’s Connect
 
-- 💌 Email: ⟪email@example.com⟫
-- 🔗 [LinkedIn](⟪url⟫)
-- 🐦 [X/Twitter](⟪url⟫)
+- 💌 Email: ⟪kumpun522@example.com⟫
+- 🔗 [facebook](https://www.facebook.com/edverd.himhs/)
