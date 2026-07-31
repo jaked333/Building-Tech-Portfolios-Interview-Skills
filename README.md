@@ -7,7 +7,7 @@
 <h1 align="center">Hi, I’m ⟪Chinnapong Ketvit⟫ <img height="30" src="https://em-content.zobj.net/thumbs/120/apple/354/waving-hand_1f44b.png" /></h1>
 
 <p align="center">
-  <strong>Full-stack & AI Engineer • Tech Educator • Lifelong Learner</strong><br/>
+  <strong>Full-stack AI Engineer • Technology Educator • Product Builder</strong><br/>
   <em>“Turning ideas into delightful, scalable software.”</em>
 </p>
 
@@ -33,12 +33,12 @@ Open [http://localhost:3000](http://localhost:3000). To connect a hosted model, 
 
 ## 🚀 About Me
 
-- 🌱  I’m currently learning **⟪New Tech/Framework⟫**
+- 🌱  I’m currently learning **production-grade machine learning with scikit-learn and AI model deployment**
 - 🛠  Daily driver stack: **TypeScript · React · Node.js · Python · FastAPI · PostgreSQL**
 - 🤖  AI engineering: **OpenAI-compatible APIs · prompt design · structured JSON output · local fallbacks**
 - 🧪  Testing: **Robot Framework · API testing · integration testing · end-to-end workflows**
-- 🎯  2025 Goal: **⟪High-impact goal (e.g., ship an OSS library)⟫**
-- 📫  Reach me: **⟪email@example.com⟫** | [LinkedIn](⟪url⟫) | [X/Twitter](⟪url⟫)
+- 🎯  2026 Goal: **Build and ship an end-to-end AI product that helps developers turn project ideas into interview-ready portfolios**
+- 📫  Reach me: **⟪kumpun522@example.com⟫** 
 
 ---
 
@@ -56,6 +56,14 @@ Open [http://localhost:3000](http://localhost:3000). To connect a hosted model, 
 
 ## 📌 Featured Projects
 
+| Project                        | Tech                                              | Highlights                                                                                           | Links                                                          |
+| ------------------------------ | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| **Signal Lab**           | Node.js · HTML · CSS · JavaScript · AI API    | Full-stack portfolio coach with a local AI fallback and structured review output                     | [Repo](./) · [Server](./server.js)                              |
+| **Signal Lab Interface** | Responsive CSS · Vanilla JavaScript · REST      | Project brief form with loading, error, and result states                                            | [Frontend](./public/index.html) · [Styles](./public/styles.css) |
+| **Portfolio Review API** | Node.js · HTTP · JSON · OpenAI-compatible API  | Validated`POST /api/review` endpoint with local and hosted model modes                             | [API code](./server.js) · [Config](./.env.example)              |
+| **Shop Cart API**        | Java · Spring Boot · REST API                   | Backend endpoint to report shopping cart updates                                                     | [Repo](./spring-boot-shop-cart)                                 |
+| **AI Match Predictor**   | Python · Pandas · scikit-learn · Random Forest | Predicts home wins, away wins, or draws from match data with cross-validation and grid-search tuning | [Model script](./projectdatasci.py)                             |
+
 ---
 
 ## ✍🏻 Recent Blog / Talks
@@ -71,11 +79,3 @@ Open [http://localhost:3000](http://localhost:3000). To connect a hosted model, 
 - 💌 Email: ⟪email@example.com⟫
 - 🔗 [LinkedIn](⟪url⟫)
 - 🐦 [X/Twitter](⟪url⟫)
-
-| Project                        | Tech                                              | Highlights                                                                                           | Links                                                          |
-| ------------------------------ | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| **Signal Lab**           | Node.js · HTML · CSS · JavaScript · AI API    | Full-stack portfolio coach with a local AI fallback and structured review output                     | [Repo](./) · [Server](./server.js)                              |
-| **Signal Lab Interface** | Responsive CSS · Vanilla JavaScript · REST      | Project brief form with loading, error, and result states                                            | [Frontend](./public/index.html) · [Styles](./public/styles.css) |
-| **Portfolio Review API** | Node.js · HTTP · JSON · OpenAI-compatible API  | Validated`POST /api/review` endpoint with local and hosted model modes                             | [API code](./server.js) · [Config](./.env.example)              |
-| **Shop Cart API**        | Java · Spring Boot · REST API                   | Backend endpoint to report shopping cart updates                                                     | [Repo](./spring-boot-shop-cart)                                 |
-| **AI Match Predictor**   | Python · Pandas · scikit-learn · Random Forest | Predicts home wins, away wins, or draws from match data with cross-validation and grid-search tuning | [Model script](./projectdatasci.py)                             |
