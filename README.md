@@ -27,33 +27,6 @@ This repository includes a dependency-free Node.js demo that reviews a project b
 - **Backend:** Node.js HTTP server with static file serving and a `POST /api/review` endpoint
 - **AI layer:** local fallback model that works immediately, plus optional OpenAI-compatible model integration
 
-### Project structure
-
-```text
-public/                 Browser interface for Signal Lab
-server.js               Node.js server and review API
-projectdatasci.py       Python match prediction project
-spring-boot-shop-cart/  Spring Boot shop-cart API
-```
-
-### Run locally
-
-```bash
-npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000). To connect a hosted model, copy `.env.example` to `.env` and provide `OPENAI_API_KEY` and optionally `OPENAI_MODEL`.
-
-### API example
-
-```bash
-curl -X POST http://localhost:3000/api/review \
-  -H "Content-Type: application/json" \
-  -d '{"project":"Signal Lab","stack":"Node.js, React, PostgreSQL","context":"System design"}'
-```
-
----
-
 ## 🚀 About Me
 
 - 🌱  I’m currently learning **production-grade machine learning with scikit-learn and AI model deployment**
@@ -81,9 +54,10 @@ curl -X POST http://localhost:3000/api/review \
 
 | Project                              | Tech                                              | Highlights                                                                                           | Links                                             |
 | ------------------------------------ | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| **Portfolio Intelligence API** | Node.js · REST · JSON · OpenAI-compatible API  | Structured`POST /api/review` service for local and hosted AI review workflows                      | [API code](./server.js) · [Config](./.env.example) |
-| **Shop Cart API**              | Java · Spring Boot · REST API                   | Backend endpoint to report shopping cart updates                                                     | [Repo](./spring-boot-shop-cart)                    |
-| **AI Match Predictor**         | Python · Pandas · scikit-learn · Random Forest | Predicts home wins, away wins, or draws from match data with cross-validation and grid-search tuning | [Model script](./projectdatasci.py)                |
+| **Portfolio Intelligence API** | Node.js · REST · JSON · OpenAI-compatible API  | Structured `POST /api/review` service for local and hosted AI review workflows                      | [API code](./test/server.js) · [Config](./test/.env.example) |
+| **Healthcare Clinic Appointment System** | Java · Spring Boot · JSP · MySQL | Patient registration, secure login, doctor search, department filtering, and date/time appointment booking | [Repository](https://github.com/jaked333/healthcare-clinic-appointment-system) |
+| **Shop Cart API**              | Java · Spring Boot · REST API                   | Backend endpoint to report shopping cart updates                                                     | [Repo](./test/spring-boot-shop-cart)                    |
+| **AI Match Predictor**         | Python · Pandas · scikit-learn · Random Forest | Predicts home wins, away wins, or draws from match data with cross-validation and grid-search tuning | [Model script](./test/projectdatasci.py)                |
 
 ---
 
@@ -98,4 +72,3 @@ curl -X POST http://localhost:3000/api/review \
 ## 🤝 Let’s Connect
 
 - 💌 Email: ⟪kumpun522@example.com⟫
-
